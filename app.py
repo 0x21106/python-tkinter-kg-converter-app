@@ -9,11 +9,9 @@ def kg_to_others():
     gram = val * 1000
     pound = val * 2.20462
     ounce = val * 35.274
-    
     gram_text.delete(CURRENT, END)
     pound_text.delete(CURRENT, END)
     ounce_text.delete(CURRENT, END)
-    
     gram_text.insert(CURRENT, gram)
     pound_text.insert(CURRENT, pound)
     ounce_text.insert(CURRENT, ounce)
