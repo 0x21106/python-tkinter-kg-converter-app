@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 window = Tk()
 window.title("Kg to gram, pound, ounce")
 
